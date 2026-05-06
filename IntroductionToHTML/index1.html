@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChaiCode Signup</title>
+</head>
+
+<body>
+    
+    <!-- HEADER -->
+    <header>
+        
+        <a href="https://chaicode.com/" target="_blank">
+                <img src="CHAICODElogo.png" alt="ChaiCode" width="50" height="50">
+        </a>
+        <h1>Sign Up for ChaiCode</h1>
+    </header>
+
+    <!-- MAIN FORM -->
+    <main>
+
+        <form action="/signup" method="post">
+
+            <!-- Signup Method -->
+            <label for="method">Choose Signup Method:</label>
+            <select id="method" name="method">
+                <option value="email">Email</option>
+                <option value="phone">Phone Number</option>
+            </select>
+
+            <br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input 
+                type="email" 
+                id="email" 
+                name="email"
+                placeholder="Enter your email"
+                required
+                autocomplete="email"
+            >
+
+            <br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input 
+                type="password" 
+                id="password" 
+                name="password"
+                placeholder="Enter your password"
+                required
+                minlength="6"
+            >
+
+            <br><br>
+
+            <!-- Course Selection -->
+            <fieldset>
+                <legend>Select Your Course</legend>
+
+                <label>
+                    <input type="radio" name="course" value="web" required>
+                    Web Development
+                </label>
+
+                <label>
+                    <input type="radio" name="course" value="python">
+                    Python
+                </label>
+
+                <label>
+                    <input type="radio" name="course" value="dsa">
+                    DSA
+                </label>
+            </fieldset>
+
+            <br>
+
+            <!-- Buttons -->
+            <button type="submit">Sign Up</button>
+            <button type="reset">Reset</button>
+
+        </form>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 ChaiCode</p>
+    </footer>
+
+</body>
+</html>

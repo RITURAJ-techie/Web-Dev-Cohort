@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChaiCode Signup</title>
+</head>
+<body>
+
+
+
+     <a href="https://chaicode.com" target="_blank">
+
+    <img src="C:\Users\majri\Downloads\CHAICODE logo.png" alt="CHAICODELOGO" width="50" height="50">
+
+    </a>
+
+    <header>
+        <h1> Sign Up  for ChaiCode</h1>
+    </header>
+
+
+    <main>
+    
+    <form action="/signup" method="get">
+        <label for="method">Choose Signup Method:</label>
+        <select id="method" name="method">
+        <option value="Email"> SignUp with Email</option>
+        <option value="Number"> SignUp with PhoneNo. </option>
+        </select>
+        <br><br>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" placeholder="Enter your emailID" required autocomplete="email"><br><br>
+        <label for="password">Password :</label>
+        <input type="password" id="password" placeholder="Enter your password" required minlength="6"><br><br>
+
+        <fieldset>
+            <legend>Select your Course</legend>
+            <label for="web">WEB-D</label>
+            <input type="radio" id="web" name="Course" value="WEB">
+
+            <label for="Python">Python</label>
+            <input type="radio" id="Python" name="Course" value="Python">
+            
+            <label for="dsa">DSA</label>
+            <input type="radio" id="dsa" name="Course" value="DSA">            
+        </fieldset>
+
+        <Button type="submit">Sign Up</Button>
+        <button type="reset">Reset</button>
+        
+    </form>
+
+    <footer>
+        <h2> Fee Structure</h2>
+        <a href="C:\Users\majri\WEB-D\fee.html" target="_blank">FEE STRUCTURE</a>
+
+    </footer>
+
+
+</body>
+</html>

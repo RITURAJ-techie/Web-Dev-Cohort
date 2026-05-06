@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0b0f19;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #00c7b7;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+.nav-right a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.signup {
+    background-color: #00c7b7;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+}
+
+.hero-left {
+    max-width: 500px;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-left p {
+    color: #aaa;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary {
+    background-color: #00c7b7;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 1px solid #00c7b7;
+    padding: 12px 20px;
+    border-radius: 25px;
+    color: #00c7b7;
+    cursor: pointer;
+}
+
+/* Right Image */
+.hero-right img {
+    width: 400px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.hero-right img:hover {
+    transform: scale(1.05);
+}

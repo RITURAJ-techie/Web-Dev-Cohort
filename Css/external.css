@@ -1,0 +1,36 @@
+button {
+    background-color: pink;
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+/* to apply the same style on button and h1 we can select 2 selectors, so we dont have to repeat the code. */
+h1,button {
+    border: 2px dashed green; 
+}
+
+.my-loving-buttons {
+    background-color: green;
+}
+
+.my-loving-buttons:hover {
+    scale: 1.2;
+}
+.my-loving-buttons {
+    font-style: normal;
+}
+
+.my-pookie-batch{
+    color:green
+}
+
+#penguin {
+    background-color: blue;
+    color: yellow;
+}

@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+
+nav h1{
+    font-size: 35px;
+}
+
+nav div a{
+    color: black;
+}
+
+nav div button{
+    background-color: rgb(43, 119, 226);
+    color: white;
+    padding: 5px;
+    border-radius:10px ;
+}
+
+.midsection{
+    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:black; 
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+nav div button:hover{
+
+    background-color: blue;
+    
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 20px auto;
+        
+}
+
+.main-left{
+    color: white;
+}
+
+.main-left h2{
+    font-size: 50px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.main-left p{
+    font-size: 20px;
+    align-content: space-around;
+}
+
+.main-left button{
+    background-color: lightgreen;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.main-left button:hover{
+    background-color:green ;
+}
+
+.main-right img{
+    border-radius: 10px;
+    margin-top: 5px;
+    color: white;
+}
+
+.main-right img:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+.content{
+    color: rgb(212, 231, 238);
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.Cohort-cards{
+    display: flex;
+    align-content: space-around;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+
+.card{
+    background-color: lightblue;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+
+.card button{
+    background-color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+
+.card button:hover{
+    background-color: skyblue;
+}

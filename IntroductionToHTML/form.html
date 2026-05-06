@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms in HTML</h1>
+    <form action="/submit" method="get">
+        <label for="fname">First Name:</label>
+        <input type="text" placeholder="Enter your First name" id="fname" name="" value="RITU"><br>
+        <label for="pass">Enter your password:</label>
+        <input type="password" name="" id="pass">
+    <br>
+    <label for="email">Enter your example.com email:</label>
+
+    <input type="email" id="email" pattern=".+@gmail\.com" size="30" required />
+
+        
+    
+    <select name="ChaiCode" id="">
+        <option value="WEB-D">WEB-D</option>
+        <option value="DSA">DSA</option>
+        
+    </select>
+    
+    <input type="reset" value="reset"><br>
+
+    <label for="avatar">Choose a profile picture:</label>
+
+    <input type="file" id="avatar" name="avatar" accept="image/pdf, image/jpeg" />
+        <br>
+    
+    <br>    
+    
+    <button type="submit">Submit the form</button>
+    <br>
+    <br><input type="submit" value="Send Request" />
+
+
+        <br>
+
+        <p>Audio settings:</p>
+
+        <div>
+        <input type="range" id="volume" name="" min="0" max="11" />
+        <label for="volume">volume</label>
+        </div>
+
+        <div>
+        <input
+            type="range"
+            id="cowbell"
+            name="cowbell"
+            min="0"
+            max="100"
+            value="90"
+            step="10" />
+        <label for="cowbell">Cowbell</label>
+        </div>
+
+        <fieldset>
+        <legend>Select a maintenance drone:</legend>
+
+        <div>
+            <input type="radio" id="huey" name="drone" value="huey" checked />
+            <label for="huey">Huey</label>
+        </div>
+
+        <div>
+            <input type="radio" id="dewey" name="drone" value="dewey" />
+            <label for="dewey">Dewey</label>
+        </div>
+
+        <div>
+            <input type="radio" id="louie" name="drone" value="louie" />
+            <label for="louie">Louie</label>
+        </div>
+        </fieldset>
+            
+    <p>Select your course:</p>
+
+    <input type="radio" id="web" name="course" value="web">
+    <label for="web">Web Development</label><br>
+
+    <input type="radio" id="dsa" name="course" value="dsa">
+    <label for="dsa">DSA</label><br>
+
+    <input type="radio" id="cloud" name="course" value="cloud">
+    <label for="cloud">Cloud Computing</label>
+
+
+    </form>
+
+</body>
+</html>

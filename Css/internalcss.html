@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: aqua ;
+            background-color: black;
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+        
+        button {
+            background-color: brown;
+            color: white;
+            font-style: italic;
+            border: none;
+            border-radius: 20px;
+        }
+
+
+        </style>    
+
+        <!-- Already defined the button properties in <style> section, but when I added external
+            Css it will cascade the button properties defined above.
+            You can also define properties in inline to make it different. -->
+
+        <link rel="stylesheet" href="external.css">
+</head>
+<body>
+    <h1>ChaiCode</h1>
+    <button>Click Me</button>
+    <button style="background-color: yellow; color: black; font-style: normal;">Click Me</button>
+    <br><br>
+
+    <!-- multipleClass -->
+    <button class="my-loving-buttons my-pookie-batch">Call Me</button>
+    
+    <button id="penguin" class="my-loving-buttons">Email Me</button>
+    
+</body>
+</html>

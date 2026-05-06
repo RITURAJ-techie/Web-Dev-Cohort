@@ -1,0 +1,32 @@
+#parent{
+    border: 2px solid red;
+    width: 50vw;
+    height: 350px;
+}
+
+
+.child{
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 5px;
+}
+
+
+#parent{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;  /*  this will get executed  */
+}
+
+.child1{
+    flex : 2;
+}
+.child2{
+    align-self: end;
+    /* to change across cross axis */
+    flex:1;
+    order: 1;
+}
