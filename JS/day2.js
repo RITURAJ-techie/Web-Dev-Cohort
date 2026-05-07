@@ -68,6 +68,7 @@
 // }
 // cartoon(); // return Anime
 
+// ----------------------------------------------------------
 
 // age=56;
 // console.log("value of age is",age ,"Is allowed?", isAllowedToVote(age));
@@ -76,6 +77,8 @@
 // function isAllowedToVote(){
 //     return age>=18;
 // } Code Wroks here because in case of function it's whole body gets hoist.
+
+// ---------------------------------------------------------------
 
 // age=56;
 // console.log("value of age is",age ,"Is allowed?", isAllowedToVote(age)==undefined);
@@ -177,32 +180,32 @@
 
 //Practise Codes
 //1.
-// const num2 = [3,10,24,80,90,34,67]
+const num2 = [3,10,24,80,90,34,67]
 
-// const result2 = num2.forEach(function(e){
-//     if (e%2===0){
-//         console.log(e);
-//     }
-// })
+const result2 = num2.forEach(function(e){
+    if (e%2===0){
+        console.log(e);
+    }
+})
 
-// console.log(result2);
+console.log(result2);
 
 //2.
 
-// const nums = [3, 10, 24, 90];
+const nums = [3, 10, 24, 90];
 
-// const result = map(e => e * 10 + 1);
+const result = map(e => e * 10 + 1);
 
-// function map(fn) {
-//     const result = [];
+function map(fn) {
+    const result = [];
 
-//     for (let i = 0; i < nums.length; i++) {
-//         const currentElement = nums[i];
-//         const num = fn(currentElement);
-//         result.push(num);
-//     }
+    for (let i = 0; i < nums.length; i++) {
+        const currentElement = nums[i];
+        const num = fn(currentElement);
+        result.push(num);
+    }
 
-//     return result;
-// }
+    return result;
+}
 
-// console.log(result);
+console.log(result);
