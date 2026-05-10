@@ -32,6 +32,7 @@ const bollyWoodFilm = {
 console.log(bollyWoodFilm.introduce())
 //-------------------------------------------------
 //*** V V IMP
+
 const filmDirector= {
     name : "Sanjay Leela Bhansali",
     cast : ["Raveer","Deepika","Priyanka"],
@@ -76,6 +77,8 @@ const actor = {
         return `${this.name} takes a bow`
     }
 }
-console.log(actor.bow())
-const detachedBow = actor.bow
-console.log(detachedBow())
+console.log(actor.bow())//Function is called as a method of actor
+
+const detachedBow = actor.bow //This only copies the function reference.
+console.log(detachedBow()) // is a plain standalone function call.
+

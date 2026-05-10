@@ -15,6 +15,7 @@ console.log(car1.modelName)
 console.log(car2.modelName)
 console.log(car1.status())
 console.log(car2.status())
+// car1.status === car2.status
 
 // Internally Equivalent To:
 // const car1 = {};
@@ -52,3 +53,6 @@ const auto1 = createAutoRickshaw("UP-1", "Lucknow-Kanpur");
 const auto2 = createAutoRickshaw("UP-2", "Agra-Mathura");
 console.log(auto1)
 console.log(auto2)
+
+// Every object gets its OWN copy of run().
+// auto1.run !== auto2.run
