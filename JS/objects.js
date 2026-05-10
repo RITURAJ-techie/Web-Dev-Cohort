@@ -87,16 +87,16 @@ Object.defineProperty(secureArtifacts, "catalogID", {
     configurable : false,
 })
 
-console.log(secureArtifacts.catalogID);
+// console.log(secureArtifacts.catalogID);
 
 secureArtifacts.catalogID= "HACKED"
-console.log(secureArtifacts.catalogID); // Can't be changed because in properties(writable),
+// console.log(secureArtifacts.catalogID); // Can't be changed because in properties(writable),
                                         // You have defined it False
 
 
 
 for (const [key,value] of Object.entries(secureArtifacts)){
-    console.log(`${key} : ${value}`);
+    // console.log(`${key} : ${value}`);
 }
 
 const desc = Object.getOwnPropertyDescriptor(secureArtifacts, "catalogID")
